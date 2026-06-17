@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sovkasilver/Desktop/ITransition/Emails page/Emails page.csproj",
-      "projectName": "Emails page",
-      "projectPath": "/Users/sovkasilver/Desktop/ITransition/Emails page/Emails page.csproj",
+      "projectUniqueName": "/Users/sovkasilver/Desktop/ITransition/Emailspage/Emailspage.csproj",
+      "projectName": "Emailspage",
+      "projectPath": "/Users/sovkasilver/Desktop/ITransition/Emailspage/Emailspage.csproj",
       "packagesPath": "/Users/sovkasilver/.nuget/packages/",
-      "outputPath": "/Users/sovkasilver/Desktop/ITransition/Emails page/obj/",
+      "outputPath": "/Users/sovkasilver/Desktop/ITransition/Emailspage/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sovkasilver/.nuget/NuGet/NuGet.Config"
