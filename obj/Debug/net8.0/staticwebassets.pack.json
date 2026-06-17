@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/sovkasilver/Desktop/ITransition/Emailspage/wwwroot/images/entry_page_background.jpg",
+      "PackagePath": "staticwebassets/images/entry_page_background.jpg"
+    },
+    {
       "Id": "/Users/sovkasilver/Desktop/ITransition/Emailspage/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

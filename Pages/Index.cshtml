@@ -3,19 +3,42 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<div class="vh-100 w-100" style="
+    background-image: url('/images/entry_page_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;">
+    <div class="position-absolute top-50 start-50 translate-middle"> 
 
-<div class="position-absolute top-50 start-50 translate-middle">
 
+        <div class="text-center" style="color: white;">
+            <h1 class="display-4">Welcome</h1>
+            <p>Start your effective communication today!</p>
+            <div class="row align-items-start">
+                <div class="col">
+                    <a class="btn btn-primary position-relative" onclick="LogIn(event)"
+                       asp-page="/LogIn">
+                        Log in
+                    </a>
+                </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Start your effective communication today!</p>
-        <div class="row align-items-start">
-            <div class="col"><button class="btn btn-primary position-relative" onclick="LogIn()">Log in</button></div>
-            <div class="col"><button class="btn btn-primary position-relative" onclick="Register()">Register</button></div>
-            
-            
+                <div class="col">
+                    <a class="btn btn-primary position-relative" onclick="Register(event)"
+                                    asp-page="/Register">
+                    Register
+                    </a>
+                </div>
+
+                
+                
+            </div>
+        </div>
+
+    
     </div>
 </div>
-
-</div>
+@* 
+    <div class="container">
+        &copy; 2026 - Emailspage - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    </div> *@

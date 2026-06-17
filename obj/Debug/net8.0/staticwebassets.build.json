@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AtMz/27MRO6yGe3phhFVdQjNqiUPJDllu5NxwPvMD5o=",
+  "Hash": "afGZ58AvsZ12KMTk3OX200LZuWNKWYU+0sD9I/ixtpk=",
   "Source": "Emailspage",
   "BasePath": "_content/Emailspage",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/sovkasilver/Desktop/ITransition/Emailspage/wwwroot/images/entry_page_background.jpg",
+      "SourceId": "Emailspage",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sovkasilver/Desktop/ITransition/Emailspage/wwwroot/",
+      "BasePath": "_content/Emailspage",
+      "RelativePath": "images/entry_page_background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/entry_page_background.jpg"
     },
     {
       "Identity": "/Users/sovkasilver/Desktop/ITransition/Emailspage/wwwroot/js/site.js",
