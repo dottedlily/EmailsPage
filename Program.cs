@@ -1,9 +1,15 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using Emailspage.Models;
 
+
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 builder.WebHost.UseUrls($"http://*:{port}");
 
 builder.Services.AddHealthChecks();
+
+builder.Services.AddDbContext<DatabaseContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
 
@@ -11,6 +17,8 @@ builder.Services.AddHealthChecks();
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
+
+
 
 app.UseHealthChecks("/health");
 
@@ -30,5 +38,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+app.MapControllers();
 
 app.Run();

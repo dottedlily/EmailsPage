@@ -6,3 +6,17 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>Let's log you in!</p>
+
+<div class="input-group mb-3">
+    <span class="input-group-text">&commat;</span>
+    <input type="text" class="form-control" id="name" placeholder="email" 
+           aria-describedby="basic-addon1">
+</div>
+<div class="input-group mb-3">
+    <input type="text" class="form-control" id="password" placeholder="password" 
+           aria-describedby="basic-addon1">
+</div>
+
+<button class="btn btn-primary position-relative" id="registerLoginButton" disabled onclick="LogIn(event)">
+    Log in
+</button>
