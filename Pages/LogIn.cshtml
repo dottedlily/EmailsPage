@@ -3,13 +3,18 @@
 @{
     ViewData["Title"] = "LogIn";
 }
+
+<div class="container-md">
 <h1>@ViewData["Title"]</h1>
 
 <p>Let's log you in!</p>
 
 <div class="input-group mb-3">
+    <input type="text" class="form-control" id="name" placeholder="name" aria-describedby="basic-addon1">
+</div>
+<div class="input-group mb-3">
     <span class="input-group-text">&commat;</span>
-    <input type="text" class="form-control" id="name" placeholder="email" 
+    <input type="email" class="form-control" id="email" placeholder="email" 
            aria-describedby="basic-addon1">
 </div>
 <div class="input-group mb-3">
@@ -20,3 +25,4 @@
 <button class="btn btn-primary position-relative" id="registerLoginButton" disabled onclick="LogIn(event)">
     Log in
 </button>
+</div>

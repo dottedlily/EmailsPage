@@ -1,0 +1,22 @@
+@page
+@model MainModel
+@{
+    ViewData["Title"] = "Main";
+}
+
+<div class="container-md position-relative">
+@*<h1>@ViewData["Title"]</h1> *@
+
+
+        <div style="background-color: light-grey">
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="deleteAction()">Delete</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="blockAction(true)">Block</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="blockAction(false)">Unblock</button>
+        </div>
+
+        <table class="table table-bordered" id="users-table">
+            <thead id="tableHead" class="table-light"></thead>
+            <tbody class="table-group-divider" id="tableBody"></tbody>
+        </table>
+
+</div>
